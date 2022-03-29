@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel Form for Trip</h1>
+        <form action="form.php">
+
+            <b><label for="FullName">Full Name (Including middle name):</label></b><br>
+            <input type="text" id="FullName" placeholder="Enter your name"> <br>
+
+            <label for="sectionida">
+                <input type="radio" value="Section a" name="section" id="sectionida"> Section A
+            </label> <br>
+            <label for="sectionidb">
+                <input type="radio" value="Section b" name="section" id="sectionidb"> Section B
+            </label> <br>
+            <label for="sectionidc">
+                <input type="radio" value="Section b" name="section" id="sectionidc"> Section C
+            </label><br>
+
+            <input type="checkbox" name="want food canteen card" id="foodcanteen" class="red">
+            <label for="foodcanteen">Want Lunch</label> <br>
+
+            <b><label for="Diet">Dietary Requirement:</label></b> <br>
+            <input type="radio" id="Vegeterian" name="Diet" value=" Vegeterian">
+            <label for="Vegeterian"> Vegeterian </label> <br>
+            <input type="radio" id="nonveg" name="Diet" value=" nonveg">
+            <label for="nonveg"> Non-veg </label> <br>
+            <input type="radio" id="Rabbit Food" name="Diet" value=" Rabbit Food">
+            <label for="Rabbit Food"> Rabbit Food </label> <br>
+            <input type="text" id="Any other allergy" name="Diet" placeholder="Any other allergy "> <br>
+
+
+            <b><label for="Answer">Important Question:</label></b> <br>
+            <textarea name="Answer" id="Answer" placeholder="Explain why you want to join" cols="30"
+                rows="10"></textarea><br>
+
+            <b><label for="transport">Preferred option to travel:</label></b><br>
+            <select name="transport" id="transport">
+                <option value="Ferrari"> Ferrari </option>
+                <option value="Toyota Yaris"> Toyota Yaris </option>
+                <option value="Public Transport"> Public Transport </option>
+            </select><br>
+
+            <b><a href="/video.html" target="_blank"> Click here to submit</a></b>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
